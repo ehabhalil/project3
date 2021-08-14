@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvas</title>
+    <!--link rel="stylesheet" href="bootstrap.min.css" type="text/css"-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></head>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+</head>
+<body data-spy="scroll" data-target="navbar" data-offset="50">
+    <!--navbar section-->
+    <nav class="navbar navbar-expand-lg fixed-top border-bottom py-0 border-bottom bg-white" id="mainNav">
+        <div class="container-fluid">
+            <div class="navbar-nav col-lg-3 ">
+                <a class="navbar-brand border-right px-lg-3 text-dark " href="#page-top">
+                    <h1 class="h1">Canvas</h1></a>
+            </div>
+            <div class="col-lg-8">
+                <ul class="navbar-nav justify-content-end ">
+                    <li class="nav-item "><a class="nav-link py-3  px-lg-3 text-dark font-weight-bold" href="#home">HOME</a></li>
+                    <li class="nav-item "><a class="nav-link py-3  px-lg-3 text-dark font-weight-bold" href="#features">FEATURES</a></li>
+                    <li class="nav-item "><a class="nav-link py-3  px-lg-3 text-dark font-weight-bold" href="#pages">PAGES</a></li>
+                    <li class="nav-item "><a class="nav-link py-3  px-lg-3 text-dark font-weight-bold" href="#portoflio">PORTFOLIO</a></li>
+                    <li class="nav-item "><a class="nav-link py-3  px-lg-3 text-dark font-weight-bold" href="#blo">BLOG</a></li>
+                    <li class="nav-item "><a class="nav-link py-3  px-lg-3 text-dark font-weight-bold" href="#shop">SHOP</a></li>
+                    <li class="nav-item "><a class="nav-link py-3  px-lg-3 text-dark font-weight-bold" href="#shortcodes">SHORTCODES</a></li>
+                </ul>
+            </div>
+            <div class="border-left col-lg-1 ">
+                <div class="row">
+                    <a class="btn ">
+                        <img src="icons/search.png" width="20px">
+                    </a>
+                    <a class="btn ">
+                        <img src="icons/basket.png" width="20px">
+                        <span class="rounded-circle nav-pills badge badge-success h-75 align-top">5</span>
+                    </a>
+                </div>
+            </div>
+        </div> 
+    </nav>
+    <!-- Masthead-->
+    <header class="container-fluid  p-0" >
+        <div id="demo" class="carousel slide" style="margin-top: 4.4%; width: 100%;" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/nature2.jpg" alt="" width="100%" height="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="images/nature2.jpg" alt="" width="100%" height="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="images/nature2.jpg" alt="" width="100%" height="100%">
+              </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <div class="justify-content-start px-0">
+            <a class="carousel-control-prev " href="#demo" data-slide="prev">
+            </a>
+            </div>
+            <div class="justify-content-end">
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+            </a>
+            </div>
+          </div>
+    </header>
+    <!--Home section-->
+    <section id="home">
+        <div class="container-fluid text-center pt-3 bg-light">
+            <div class="row">
+                <div class="col-lg-8 pl-5 text-sm-center ">
+                    <h2 class="h2 " style="font-size : 24px;">Call us today at <i style="color:#1bbc9b; font-style: normal;">+91.22.57412541</i> or Email us at <i style="color:#1bbc9b;">support@canvas.com</i><h2>
+                    <p class="font-weight-lighter " style="font-size: 18px;">Lorem, asdas fwef weof pwefm ipsum dolor sit amet consectetur adipisicing elit. Soluta, maxime.</p>
+                </div>
+                <div class="col-lg-4  justify-content-start text-lg-left pt-2">
+                    <span>
+                        <button class="btn btn-dark font-weight-bold  ">START BROWSING</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--services section-->
+    <section id="home" >
+        <div class="container-fluid text-center pt-5">
+            <div class="row justify-content-center">
+                <div class="offset-0 ">
+                    <div >
+                        <img src="icons/home.png" class="bg-light"style =" border-radius: 50%; padding: 20px;" width="70px">
+                        <h5 class="mt-4">E-COMMERCE SOLUTIONS</h5>
+                        <p class="font-weight-lighter">Start your Own Shop today</p>
+                    </div>
+                </div>
+                <div class="offset-1">
+                    <div>
+                        <img src="icons/wallet.png" class="bg-light" style =" border-radius: 50%; padding: 20px;" width="70px">
+                        <h5 class="mt-4">EASY PAMENT OPTIONS</h5>
+                        <p class="font-weight-lighter">Crdit CARDS &Pay Pal Support</p>
+                    </div>
+                </div>
+                <div class="offset-1">
+                    <div >
+                        <img src="icons/notification.png"class="bg-light" style ="border-radius: 50%; padding: 20px;" width="70px">
+                        <h5 class="mt-4">INSTANT NOTIFICATIONS</h5>
+                        <p class="font-weight-lighter">Real Time Email & SMS<br>Support</p>
+                    </div>
+                </div>
+                <div class="offset-1">
+                    <div>
+                        <img src="icons/fire2.png" class="bg-light" style ="border-radius: 50%; padding: 20px;" width="70px">
+                        <h5 class="mt-4">HOT OFFERS DAILY</h5>
+                        <p class="font-weight-lighter">Upto 50% Discount</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr style="width: 75%;">
+    <!---->
+    <section id="">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-3 offset-lg-0 ">
+                    <iframe width="360" height="280" src="https://www.youtube.com/embed/9EAFGiLuPdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-lg-7 offset-lg-1  ">
+                    <h4>GLOBBALY PREFFERED E-COMMERCE<br>PLATFORM</h4>
+                    <br>
+                    <hr style="width: 30px; border-width:1.5px;background-color: black;padding: 0px; margin: 0px;">
+                    <br>
+                    <br>
+                    <p class="font-weight-lighter p-0">
+                        WorldWide Jon Leonen, mobilize humanitarian; emergency response donors; cause human<br>experience effect.Volonteer Action Aginst Hunger Aga Khan safeguards Woman's.
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-6 ">
+                            <ul class="font-weight-lighter p-4" style="list-style-type:circle;">
+                                <li>Responsive Ready Item.</li>
+                                <li>Relative Display Supported</li>
+                                <li>Powerful & Optomized Code</li>
+                                <li>380+ Templates Included</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 ">
+                            <ul class="font-weight-lighter p-4"  style="list-style-type:circle;">
+                                <li>Responsive Ready Item.</li>
+                                <li>Relative Display Supported</li>
+                                <li>Powerful & Optomized Code</li>
+                                <li>380+ Templates Included</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="features">
+        <div class="container-fluid text-md-center bg-light">
+            <h3 class="pt-5 text-uppercase">Features that you are gonna love</h3>
+            <p>Canvas comes with 100+ Features oriented Shortcodes that are easy to use<br>too.</p>
+            <hr style="width: 30px; border-width:1.5px;background-color: black;">
+            <div class="row justify-content-xl-center mt-5">
+                <!--feature 1-->
+                <div class="col-lg-3 text-sm-left p-0 mx-lg-2 mb-5 ">
+                    <div class="mb-1">
+                        <img class="mx-0" src="icons/phone.png" width="20px">
+                        <span class="ml-2 font-weight-bold">Responsive Layout</span>
+                    </div>
+                    <div>
+                        <p class="font-weight-lighter">Powerfull Layout with Responsive functionality that can be adapted to any screen size.</p>
+                    </div>
+                </div>
+                <!--feature 2-->
+                <div class="col-lg-3 text-sm-left p-0 mx-lg-2 mb-5">
+                    <div class="mb-1">
+                        <img class="mx-0" src="icons/eye.png" width="20px">
+                        <span class="ml-2 font-weight-bold">RETINA READY GRAPHICS</span>
+                    </div>
+                    <div>
+                        <p class="font-weight-lighter">Looks beautiful & ultra-sharp on Retina Displays with retina Icons,Fonts & Images</p>
+                    </div>
+                </div>
+                <!--feature 3-->
+                <div class="col-lg-3 text-sm-left p-0 mx-lg-2 mb-5">
+                    <div class="mb-1">
+                        <img class="mx-0" src="icons/star.png" width="20px">
+                        <span class="ml-2 font-weight-bold">POWERFUL PERFORMANCE</span>
+                    </div>
+                    <div>
+                        <p class="font-weight-lighter">Optimized code that are completely customizeable and  deliver unmatched fast performance.</p>
+                    </div>
+                </div>
+                <!--feature 4-->
+                <div class="col-lg-3 text-sm-left p-0 mx-lg-2 mb-5">
+                    <div class="mb-1">
+                        <img class="mx-0" src="icons/video.png" width="20px">
+                        <span class="ml-2 font-weight-bold">HTML5 VIDEO</span>
+                    </div>
+                    <div>
+                        <p class="font-weight-lighter">Canvas provides support for Native HTML5 videos that can added to a Full Width Background.</p>
+                    </div>
+                </div>
+                <!--feature 5-->
+                <div class="col-lg-3 text-sm-left p-0 mx-lg-2 mb-5">
+                    <div class="mb-1">
+                        <img class="mx-0" src="icons/setting.png" width="20px">
+                        <span class="ml-2 font-weight-bold">PARALLAX SUPPORT</span>
+                    </div>
+                    <div>
+                        <p class="font-weight-lighter">Display your Content attractively using Parallax Sections that have unlimited customizable  areas.</p>
+                    </div>
+                </div>
+                <!--feature 6-->
+                <div class="col-lg-3 text-sm-left p-0 mx-lg-2 mb-5 ">
+                    <div class="mb-1">
+                        <img class="mx-0" src="icons/fire.png" width="20px">
+                        <span class="ml-2 font-weight-bold">ENDLES POSSIBILITIES</span>
+                    </div>
+                    <div>
+                        <p class="font-weight-lighter">Complete control on each & every element that provides endless customization possibilities.</p>
+                    </div>
+                </div>
+                <!--feature 7-->
+                <div class="col-lg-3 text-sm-left p-0 mx-lg-2 mb-5">
+                    <div class="mb-1">
+                        <img class="mx-0" src="icons/light.png" width="20px">
+                        <span class="ml-2 font-weight-bold">LIGHT & DARK COLOR SCHEMES</span>
+                    </div>
+                    <div>
+                        <p class="font-weight-lighter">Change your Website's Primary Scheme instantly by simply adding the dark class to the body.</p>
+                    </div>
+                </div>
+                <!--feature 8-->
+                <div class="col-lg-3 text-sm-left p-0 mx-lg-2 mb-5">
+                    <div class="mb-1">
+                        <img class="mx-0" src="icons/heart.png" width="20px">
+                        <span class="ml-2 font-weight-bold">BOXED & WIDE LAYOUTS</span>
+                    </div>
+                    <div>
+                        <p class="font-weight-lighter">Stretch your Website to the Full Width or make it boxed to surprise your visitors.</p>
+                    </div>
+                </div>
+                <!--feature 9-->
+                <div class="col-lg-3 text-sm-left p-0 mx-lg-2 mb-5">
+                    <div class="mb-1">
+                        <img class="mx-0" src="icons/newpaper.png" width="20px">
+                        <span class="ml-2 font-weight-bold">EXTENSIVE DOUCUMENTATION</span>
+                    </div>
+                    <div>
+                        <p class="font-weight-lighter">We have covered each & everything in our Documentation including Videos & Screenshots.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--works sections-->
+    <section id="work">
+        <div class="container-fluid text-md-center pb-5">
+            <h3 class="pt-5 text-uppercase">some of our <em class="" style="color:#1bbc9b; font-style: normal;">featured</em> work</h3>
+            <p class="font-weight-lighter">We have  worked on some Awesome Projects that worth are boasting of.</p>
+            <hr style="width: 30px; border-width:1.5px;background-color: black;">
+            <div class="row mt-5 justify-content-center">
+                <!--element 1-->
+                <div class="p-0">
+                    <img src="images/clothingShop.png" width="200px">
+                    <h6 class="h6 px-1 mb-0 mt-3 text-sm-left">backpack content</h6>
+                    <small class="font-weight-lighter" style="margin-left: -105px;">UI elemt ,icone</small>
+                </div>
+                <!--element 2-->
+                <div class=" p-0">
+                    <img src="images/card.png" width="200px">
+                    <h6 class="h6 px-1 mb-0 mt-3 text-sm-left">Sunset Bulb Glow</h6>
+                    <small class="font-weight-lighter" style="margin-left: -140px;">Graphics</small>
+                </div>
+                <!--element 3-->
+                <div class=" p-0">
+                    <img src="images/logos.png" width="200px">
+                    <h6 class="h6 px-1 mb-0 mt-3 text-sm-left">Study Table</h6>
+                    <small class="font-weight-lighter" style="margin-left: -105px;">Graphics, media</small>
+                </div>
+                <!--element 4-->
+                <div class=" p-0">
+                    <img src="images/workStaff.png" width="200px">
+                    <h6 class="h6 px-1 mb-0 mt-3 text-sm-left">Workspace Stuff</h6>
+                    <small class="font-weight-lighter" style="margin-left: -115px;">Media, Icons</small>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials"class="container-fluid bg-light pb-5">
+        <div class="container text-center mb-5">
+            <h3 class="pt-5 text-uppercase">testimonials</h3>
+            <p class="font-weight-lighter">Check out some of our Client Reviews</p>
+            <hr style="width: 30px; border-width:1.5px;background-color: black;">
+            <div class="row mt-5 justify-content-sm-center">
+                <!--testimonials 1-->
+                <div class="media col-lg-4 " style="border-right: dashed; border-bottom: dashed; border-color: lightgray; border-width: 2px;">
+                    <img src="images/man.png" class="align-self-start mr-3 mt-3" style="width:60px">
+                    <div class="media-body mt-3">
+                      <blockquote class="blockquote text-left font-italic font-weight-lighter">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</blockquote>
+                      <footer class="blockquote-footer font-weight-bold text-left">John Doe</footer>
+                      <small class="font-weight-lighter" style="margin-left: -200px;">XYZ Inc.</small>
+                    </div>
+                </div>
+                <!--testimonials 2-->
+                <div class="media col-lg-4 " style="border-right: dashed; border-bottom: dashed; border-color: lightgray; border-width: 2px;">
+                    <img src="images/man.png" class="align-self-start mr-3 mt-3" style="width:60px">
+                    <div class="media-body mt-3">
+                      <blockquote class="blockquote text-left font-italic font-weight-lighter">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</blockquote>
+                      <footer class="blockquote-footer font-weight-bold text-left">John Doe</footer>
+                      <small class="font-weight-lighter" style="margin-left: -200px;">XYZ Inc.</small>
+                    </div>
+                </div>
+                <!--testimonials 3-->
+                <div class="media col-lg-4 " style=" border-bottom: dashed; border-color: lightgray; border-width: 2px;">
+                    <img src="images/man.png" class="align-self-start mr-3 mt-3" style="width:60px">
+                    <div class="media-body mt-3">
+                      <blockquote class="blockquote text-left font-italic font-weight-lighter">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</blockquote>
+                      <footer class="blockquote-footer font-weight-bold text-left">John Doe</footer>
+                      <small class="font-weight-lighter" style="margin-left: -200px;">XYZ Inc.</small>
+                    </div>
+                </div>
+                <!--testimonials 4-->
+                <div class="media col-lg-4 " style="border-right: dashed; border-color: lightgray; border-width: 2px;">
+                    <img src="images/man.png" class="align-self-start mr-3 mt-3" style="width:60px">
+                    <div class="media-body mt-3">
+                      <blockquote class="blockquote text-left font-italic font-weight-lighter">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</blockquote>
+                      <footer class="blockquote-footer font-weight-bold text-left">John Doe</footer>
+                      <small class="font-weight-lighter" style="margin-left: -200px;">XYZ Inc.</small>
+                    </div>
+                </div>
+                <!--testimonials 5-->
+                <div class="media col-lg-4 " style="border-right: dashed;  border-color: lightgray; border-width: 2px;">
+                    <img src="images/man.png" class="align-self-start mr-3 mt-3" style="width:60px">
+                    <div class="media-body mt-3">
+                      <blockquote class="blockquote text-left font-italic font-weight-lighter">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</blockquote>
+                      <footer class="blockquote-footer font-weight-bold text-left">John Doe</footer>
+                      <small class="font-weight-lighter" style="margin-left: -200px;">XYZ Inc.</small>
+                    </div>
+                </div>
+                <!--testimonials 6-->
+                <div class="media col-lg-4 " >
+                    <img src="images/man.png" class="align-self-start mr-3 mt-3" style="width:60px">
+                    <div class="media-body mt-3">
+                      <blockquote class="blockquote text-left font-italic font-weight-lighter">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</blockquote>
+                      <footer class="blockquote-footer font-weight-bold text-left">John Doe</footer>
+                      <small class="font-weight-lighter" style="margin-left: -200px;">XYZ Inc.</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--logos section-->
+    <section id="logos" class="">
+        <img src="images/logos2.png" class=""width="1500px" alt="">
+    </section>
+    <!--customization section-->
+    <section id="customization" class="container-fluid text-center p-3 pt-4" style="background-color: #1bbc9b;">
+        <h4 class="h4 font-weight-lighter text-light dropend">Canvas comes with Unlimited customizations & Option. <u class=" font-weight-bold dropend dropdown-toggle">Check Out</u></h4>
+    </section>
+    <!--footer section-->
+    <footer class="footer text-center">
+        <div class="container-fluid p-5" style="background-color: #333333;">
+            <div class="row justify-content-center">
+                <!-- Footer canvas-->
+                <div class="col-lg-2 text-sm-left offset-1">
+                    <img src="images/canvas.png" class="pb-4" width="100px" alt="">
+                    <p class="font-weight-lighter pb-4" style="color: #aeaeae;">
+                        We belive in Simple,Creative& Flexible Design standards.
+                    </p>
+                    <p class="font-weight-lighter pb-4" style="color: #aeaeae;">
+                        
+                        <b>Headquarters:</b><br>
+                        795 Folsom Ave, Suite 600<br>San Francisco, CA 94107
+                    </p>
+                    <p class="c pb-4" style="color: #aeaeae;">
+                        <b class="font-weight-bold"style="border-bottom: dotted; border-width: 2px;" >Phone:</b>
+                        (91)8547 632521
+                        <br>
+                        <b class="font-weight-bold" style="border-bottom: dotted; border-width: 2px;" >Fax:</b>
+                        (91)8547 632521
+                        <br>
+                        <b class="font-weight-bold"style="border-bottom: dotted; border-width: 2px;" >Email:</b>
+                        (91)8547 632521
+                    </p>
+                </div>
+                <!-- Footer BLOGROLL-->
+                <div class="col-lg-1 text-sm-left mr-5">
+                    <p >
+                        <b class="font-weight-bolder " style="color: #aeaeae;">BLOGROLL</b>
+                        <ul class="text-left pl-3 m-0 font-weight-lighter" style="color: #aeaeae;">
+                            <li>Docunemtation</li>
+                            <li>Feadback</li>
+                            <li>Plugins</li>
+                            <li>SupportForums</li>
+                            <li>Themes</li>
+                            <li>WorldPressBlog</li>
+                            <li>WordPressPlanet</li>
+                        </ul>
+                    </p>
+                </div>
+                <!-- Footer recent Posts-->
+                <div class="col-lg-2 text-sm-left ml-5">
+                    <div>
+                        <b class="font-weight-bolder " style="color: #aeaeae;">RECENT POSTS</b>
+                        <p class="font-weight-lighter mt-3" style="color: #aeaeae;">Lorem, ipsum dolor sit amet consectetur<br><i class="font-weight-lighter"><small>10th july 2014</small></i></p>
+                        <hr class="border-light" style="border-style:dotted ;">
+                    </div>
+                    <div>
+                        <p class="font-weight-lighter mt-3" style="color: #aeaeae;">Lorem, ipsum dolor sit amet consectetur<br><i class="font-weight-lighter"><small>10th july 2014</small></i></p>
+                        <hr class="border-light" style="border-style:dotted ;">
+                    </div>
+                    <div>
+                        <p class="font-weight-lighter mt-3" style="color: #aeaeae;">Lorem, ipsum dolor sit amet consectetur<br><i class="font-weight-lighter"><small>10th july 2014</small></i></p>
+                    </div>
+                </div>
+                <!--footer statistic-->
+                <div class="col-lg-3 text-sm-left">
+                    <div class="row mb-5">
+                        <div class="col-lg-6">
+                            <h6 class="font-weight-bolder" style="color: #aeaeae;font-size: 24px;"><i>15,065,421</i></h4>
+                            <p class="font-weight-lighter"style="color: #aeaeae;">TOTAL DOWNLOADS</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <h6 class="font-weight-bolder" style="color: #aeaeae;font-size: 24px;"><i>18,465</i></h4>
+                                <p class="font-weight-lighter"style="color: #aeaeae;">CLIENTS</p>
+                        </div>
+                    </div>
+                    <p class="font-weight-bold" style="color: #aeaeae;">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, blanditiis.
+                    </p>
+                    <form class="mb-5">
+                        <div class="input-group mb-3 ">
+                          <div class="input-group-prepend "style="background-color:#212121;">
+                            <span class="input-group-text "style="background-color:#212121;">
+                                <img src="icons/messege.png"width="27px">
+                            </span>
+                          </div>
+                          <input type="text" class="form-control " style="background-color:#292929;" placeholder="Enter yor Email" id="usr" name="username">
+                          <button class="btn btn-success rounded-0">Subscribs</button>
+                        </div>
+                    </form>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="row justify-content-md-center">
+                                <div class="col-lg-3 mx-2">
+                                    <img src="icons/facebook.png" width="50px"alt="">
+                                </div>
+                                <div class="col-lg-6 offset-0">
+                                    <small class="font-weight-bold justify-content-md-center" style="color: #aeaeae;">like us on Facebook</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row justify-content-md-center">
+                                <div class="col-lg-3 mx-2">
+                                    <img src="icons/Rss.png" width="50px"alt="">
+                                </div>
+                                <div class="col-lg-7 offset-0">
+                                    <small class="font-weight-bold justify-content-md-center" style="color: #aeaeae;">Subscribe to RSS Feed</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Copyright Section-->
+    <div class="copyright  text-white">
+        <div class="container-fluid py-4 text-light" style="background-color: #292929;">
+            <div class="row">
+                <div class="col-lg-4 offset-2 pl-5">
+                    <small style="color: #474747;">Copyright &copy; ehab_halil Website 2021</small>
+                    <small class="d-lg-block text-justify"style="color: #474747;" >Term of use / privacyPolicy</small>
+                </div>
+                <div class="col-lg-4 ">
+                    <img src="images/socialmedia.png" class="pt-2"width="400px" alt="">
+                </div>
+            </div>
+    </div>
+</body>
+</html>
